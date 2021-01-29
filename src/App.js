@@ -24,33 +24,35 @@ class Home extends React.Component{
                     <Row>
                     <Col md={6}>
                     <p id='home' className='text-justify'>
-                        Hello!  I am Jeremiah Taguta, a Full-stack Web Developer with a BSc degree in Computer Science 
-                        who is  Agile and attentive to detail.
+                  Hello!  I am Jeremiah Taguta, a Full-stack Web Developer with a BSc degree in Computer Science 
+                  who is  Agile and attentive to detail.
 
                     </p>
+                
 
                     <Row>
                     <Col md={12}>
                     <h2>
                         TECHNOLOGIES USED
                     </h2>
+
+
+                    <p id='home' className='text-justify'>
+                        <b>FRONTEND:</b> <br /> I employ Javascript, ReactJS, Bootstrap4, HTML5 ,CSS and Adobe XD for web
+                        development and design respectively!
+                    </p>
+                    <hr />
+
+                    <p id='home' className='text-justify'>
+                        <b>BACKEND:</b> <br /> I use PHP, Python and Django with MySql, Postgress databases even on Cloud Platforms like AWS and GCP. </p>
+                    <hr />
                     </Col>
                     </Row>
                     
                     <Row>
                     <Col md={12}>
-                    <p  className='text-justify'>
-                    <b>FRONTEND:</b> I employ Javascript, ReactJS, Mobirise, Bootstrap4, HTML5 ,
-                    CSS  and  Adobe XD for web development and design respectively! </p>
-                    <hr />
 
-                    <p  className='text-justify'>
-                    <b>BACKEND:</b> I use PHP, Python, SQL for RESTfuland CRUD API's, Django and WordPress frameworks to interact with MySql, 
-                    Postgres, NoSql databases even on Cloud Services like AWS and GCP. </p>
-                    <hr />
-
-                    <p  className='text-justify'>
-                    <b>OTHER  PROGRAMMING LANGUAGES KNOWN:</b> Java, C and C++ </p>
+                    
                     </Col>
                     </Row>
                     </Col>
@@ -112,7 +114,7 @@ class App extends React.Component {
           </Navbar>
        
       
-      <Route exact={true} path="/" component={Home} />
+      <Route  path="/" component={Home} />
       <Route path='/components/projects' component={Project} />
      
       
